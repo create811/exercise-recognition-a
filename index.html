@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Recognition AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exercise Recognition AI</h1>
+        <p>Your virtual fitness trainer</p>
+    </header>
+    
+    <main>
+        <section id="video-container">
+            <video id="webcam" autoplay playsinline></video>
+        </section>
+
+        <section id="controls">
+            <label for="exercise-select">Select Exercise:</label>
+            <select id="exercise-select">
+                <option value="squats">Squats</option>
+                <option value="lunges">Lunges</option>
+                <option value="pushups">Push-ups</option>
+            </select>
+
+            <button id="start-button">Start Exercise</button>
+        </section>
+
+        <section id="feedback">
+            <h2>Feedback</h2>
+            <div id="feedback-text">Your feedback will appear here...</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Developed by FitNestAI Team</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
